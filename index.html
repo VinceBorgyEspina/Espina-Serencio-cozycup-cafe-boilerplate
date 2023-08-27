@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>CozyCup Café</title>
+    <link rel="icon" type="image/x - icon" href="img/favicon.ico">
 </head>
 <body>
     <header>
@@ -17,30 +18,73 @@
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
+
             </ul>
         </nav>
     </header>
-
-    <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Discover Your Perfect Brew</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
-    </section>
+    <div class="main"> 
+        <section id="home" class="hero">
+            <h1>Welcome to CozyCup Café</h1>
+            <p>Discover Your Perfect Brew</p>
+            <a href="#menu" class="cta-button">Explore Menu</a>
+        </section>
+    </div>
 
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <!-- Add menu items here -->
+        <div row_1menu>
+            
+            
+        </div>
+        
     </section>
 
     <section id="about" class="about">
         <h2>About Us</h2>
         <p>Discover the story behind CozyCup Café...</p>
+        
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <p>Have questions or feedback? Reach out to us...</p>
+        <h2>Contact Information</h2>
+        <p>PSU, University Road, Puerto Princesa, Palawan
+        </p>
+        <a href="https://mail.google.com/mail/u/0">CozyCupCafé@gmail.com</a>
+        <p>
+            0999-9999-999
+        </p>
+        <h2>Contact Form</h2>
+        <div="contact_form">
+    
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="concern">Concern</label>
+                <select id="concern" name="cpncern">
+                  <option value="inquiries">Inquiries</option>
+                  <option value="Feedback">Feedback</option>
+                  <option value="Reservation requests.">Reservation requests.</option>
+                 
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+        <div="map">
+            <h2>Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1693157289450!6m8!1m7!1s9PPZwJABl0VmV88jdXYhJQ!2m2!1d9.77839430269486!2d118.735678777471!3f189.98704595725337!4f-5.758426810568878!5f1.1924812503605782" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
